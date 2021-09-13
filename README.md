@@ -1,4 +1,6 @@
-I'm a self-taught passionate Full stack developer from India
+Hey there 👋,
+
+  A Self-taught passionate Full stack developer
 
 About me
 
