@@ -6,5 +6,5 @@ About me
 
 💼 Full Stack Engineer at DHL IT Services
 
-❤️ I like writing .NET, Angular, Python, AWS, Azure
+❤️ I like writing .NET, Angular, React, Python, AWS, Azure
 
