@@ -35,7 +35,7 @@ Welcome to my GitHub profile! I'm a passionate **Developer** with a focus on **F
 
 - 🌐 **Portfolio:** [karthyick.github.io](https://karthyick.github.io/)
 - 💼 **LinkedIn:** [Karthick Raja Mohan](https://www.linkedin.com/in/karthick-raja-mohan-753431123/)
-- ✉️ **Email:** [karthick.raja.mohan@example.com](mailto:letsmailkarthickraja@gmail.com)
+- ✉️ **Email:** [letsmailkarthickraja@gmail.com](mailto:letsmailkarthickraja@gmail.com)
 
 ---
 
