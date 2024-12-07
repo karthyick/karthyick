@@ -41,8 +41,6 @@ Welcome to my GitHub profile! I'm a passionate **Developer** with a focus on **F
 
 ## 📈 **GitHub Stats**
 
-![Karthick's GitHub Stats](https://github-readme-stats.vercel.app/api?username=karthyick&show_icons=true&theme=radical)
-
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=karthyick&layout=compact&theme=radical)
 
 ---
