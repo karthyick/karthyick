@@ -41,7 +41,7 @@ An educational web application for deep learning enthusiasts! Explore topics lik
 - Firebase (or other backend)
 - HTML, CSS
 - 
-## [Link to GitHub Repository](https://github.com/karthyick/Deep-Learning-Topics-Explorer)
+## [Repository]([https://github.com/karthyick/Deep-Learning-Topics-Explorer](https://github.com/karthyick/DeepLearnerAPP))
 
 
 
