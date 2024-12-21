@@ -30,6 +30,21 @@ Welcome to my GitHub profile! I'm a passionate **Developer** with a focus on **F
 - Data Analysis, Model Training, scikit-learn, TensorFlow.
 
 ---
+# Deep Learning Topics Explorer
+
+An educational web application for deep learning enthusiasts! Explore topics like Neural Networks, CNNs, GANs, and much more, with study materials, YouTube videos, and code samples.
+
+[Check out the live demo on Netlify](https://676689fe223daa0d5550c25c--gilded-semifreddo-7f5a15.netlify.app/)
+
+## Technologies:
+- JavaScript
+- Firebase (or other backend)
+- HTML, CSS
+- 
+## [Link to GitHub Repository](https://github.com/karthyick/Deep-Learning-Topics-Explorer)
+
+
+
 
 ## 📫 **Connect with Me**
 
