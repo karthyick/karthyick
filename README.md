@@ -9,7 +9,7 @@ Welcome to my GitHub! I'm a passionate **Full-Stack Developer** and **AI/ML** wi
 - 🎓 **Education:**  
   - B.E. in Computer Science  
   - PG Program in Cloud Computing  
-  - Executive Certification in AI & Machine Learning  
+  - Executive PG Program in AI & Machine Learning  
 - 💼 **Experience:** Full-stack software development, cloud-native solutions, and AI/ML integration.  
 - ⚙️ **Focus Areas:** AI Agentic Systems · Code Understanding · Cloud Architectures · Visual Tools for Developers  
 - 🌱 **Currently Learning:** Advanced ML algorithms & multi-agent AI frameworks  
