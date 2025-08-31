@@ -1,6 +1,6 @@
 # 👋 Hi, I'm **Karthick Raja Mohan**
 
-Welcome to my GitHub! I'm a passionate **Full-Stack Developer** and **AI/ML** with decade of experience in building scalable applications across cloud, AI, and enterprise software stacks.
+Welcome to my GitHub! I'm a passionate **AI/ML** and **Full-Stack Developer** with decade of experience in building scalable applications across cloud, AI, and enterprise software stacks.
 
 ---
 
