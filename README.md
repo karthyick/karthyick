@@ -1,4 +1,4 @@
-# 👋 Hi, I'm **Karthick Raja Mohan**
+# 👋 Hi, I'm **Karthick**
 
 Welcome to my GitHub! I'm a **Senior AI/ML Engineer** with a decade of experience specializing in **Agentic AI**, **LLM Engineering**, and **Enterprise AI Solutions** at scale.
 
@@ -19,10 +19,25 @@ Welcome to my GitHub! I'm a **Senior AI/ML Engineer** with a decade of experienc
 
 ### 📊 AI/ML Stack
 ```python
-frameworks = ["PyTorch", "TensorFlow", "Transformers", "LangChain", "LlamaIndex"]
-models = ["GPT-4", "Claude", "Llama 3", "DeepSeek", "Mistral", "Phi-3"]  
-vectorDBs = ["FAISS", "Pinecone", "Weaviate", "ChromaDB"]
-tools = ["OpenAI", "Anthropic","Ollama", "HuggingFace"]
+frameworks = [
+    "PyTorch", "TensorFlow", "Transformers", 
+    "Lang - Graph & Chain", "LlamaIndex", "PEFT", "scikit-learn"
+]
+
+models = [
+    "GPT-4", "Claude-4", "Llama-3", "DeepSeek", 
+    "Mistral", "Phi-3", "Gemini", "CodeLlama"
+]  
+
+vectorDBs = [
+    "FAISS", "Pinecone", "Weaviate", 
+    "ChromaDB",
+]
+
+tools = [
+    "OpenAI", "Anthropic", "Azure OpenAI",
+    "Ollama", "HuggingFace", "MLflow", "WandB"
+]
 ```
 
 ---
@@ -31,7 +46,7 @@ tools = ["OpenAI", "Anthropic","Ollama", "HuggingFace"]
 
 ### 🔧 Cloud Platforms
 - **Azure:** AI Services, Cognitive Services, Function Apps, AKS, Cosmos DB
-- **AWS:** Bedrock, SageMaker, EC2, S3, Lambda, DynamoDB
+- **AWS:** SageMaker, EC2, S3, Lambda, DynamoDB
 - **Ops:** Docker, Kubernetes, MLflow, Weights & Biases
 
 ### 📈 Certifications
