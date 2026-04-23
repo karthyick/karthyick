@@ -1,5 +1,9 @@
 # 👋 Hi, I'm **Karthick Raja M**
 
+![Profile Views](https://komarev.com/ghpvc/?username=karthyick&style=flat-square&color=8b5cf6&label=Profile+Views)
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=AI%2FML+Engineer;Custom+LLM+Trainer;4+PyPI+packages+(4.7K%2B+downloads);8+VS+Code+extensions+(3.7K%2B+installs);Building+aichargeworks.com)
+
 Welcome to my GitHub! I'm a **Senior AI/ML Engineer** with a decade of experience specializing in **Agentic AI**, **LLM Engineering**, and **Enterprise AI Solutions** at scale.
 
 ---
@@ -143,6 +147,10 @@ Purpose: Distributed training, model serving, Docker hosting
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=karthyick&show_icons=true&theme=radical&include_all_commits=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=karthyick&layout=compact&theme=radical&langs_count=10)
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=karthyick&theme=react-dark&hide_border=true)
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=karthyick&theme=radical&row=1&column=7&margin-w=15)
 
 ---
 
