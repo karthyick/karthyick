@@ -133,8 +133,6 @@ tools = [
 **24.5M-param Transformer trained from scratch on RTX 5090** — 8.65 perplexity, 100% article generation with custom 10K tokenizer.
 *Tech:* PyTorch · HuggingFace · WandB · Flash Attention
 
-> ⭐ **If any of these help you, please star the repo.** It's the single best signal that this work matters — and helps other developers discover it.
-
 ---
 
 ## 🖥️ AI Development Setup
