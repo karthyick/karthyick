@@ -150,7 +150,7 @@ Purpose: Distributed training, model serving, Docker hosting
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=karthyick&theme=react-dark&hide_border=true)
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=karthyick&theme=radical&row=1&column=7&margin-w=15)
+![Trophies](https://github-trophies.vercel.app/?username=karthyick&theme=radical&row=1&column=7&margin-w=15)
 
 ---
 
