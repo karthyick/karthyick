@@ -4,7 +4,21 @@
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=AI%2FML+Engineer;Custom+LLM+Trainer;4+PyPI+packages+(4.7K%2B+downloads);8+VS+Code+extensions+(3.7K%2B+installs);Building+aichargeworks.com)
 
-Welcome to my GitHub! I'm a **Senior AI/ML Engineer** with a decade of experience specializing in **Agentic AI**, **LLM Engineering**, and **Enterprise AI Solutions** at scale.
+**Senior AI/ML Engineer** shipping open-source tools for local LLMs, efficient inference, and custom model training. **8,458+ developers use my packages.**
+
+---
+
+## 📊 Impact
+
+| Metric | Value |
+|--------|-------|
+| 🐍 **PyPI Downloads** | **4,752** across 4 packages |
+| 🧩 **VS Code Installs** | **3,706** across 8 extensions |
+| 🧠 **Custom LLM Trained** | KR-Twin v12 — 91.7% accuracy (Qwen 3.5-9B + 4-bit quant) |
+| 📄 **Research Published** | Evaluation-First Attention (FWRL ablation) |
+| 🏆 **GitHub Trophies** | 5× S-rank (Commits, Languages, Longevity, SSS, Deep Committer) |
+
+> **⭐ Most useful repo:** [**distill-json**](https://github.com/karthyick/DISTILL) — 60-85% token reduction for LLM APIs · 2,345 downloads · **[Star it if it saves you tokens →](https://github.com/karthyick/DISTILL)**
 
 ---
 
@@ -95,29 +109,31 @@ tools = [
 
 ## 🔥 Featured Projects
 
-### 📄 [evaluation-first-attention](https://github.com/karthyick/evaluation-first-attention) — Research
-Evaluation-First Attention: specification-driven generation via dynamic rubric conditioning and failure-weighted reattention.
+### 🗜️ [DISTILL](https://github.com/karthyick/DISTILL) · [![Stars](https://img.shields.io/github/stars/karthyick/DISTILL?style=social)](https://github.com/karthyick/DISTILL)
+**JSON compression for LLMs — 60-85% token reduction, lossless, 6.6× ratio.** 2,345 PyPI downloads.
+*Tech:* Python · Schema extraction · Dictionary encoding · [PyPI](https://pypi.org/project/distill-json/)
+
+### 🧩 [tracemaid](https://github.com/karthyick/tracemaid) · [![Stars](https://img.shields.io/github/stars/karthyick/tracemaid?style=social)](https://github.com/karthyick/tracemaid)
+**Auto-generate Mermaid diagrams from OpenTelemetry traces.** 890 PyPI downloads.
+*Tech:* Python · OpenTelemetry · FastAPI · ConvexHull + K-Means · [PyPI](https://pypi.org/project/tracemaid/)
+
+### 🔗 [langgraph-crosschain](https://github.com/karthyick/langgraph-crosschain) · [![Stars](https://img.shields.io/github/stars/karthyick/langgraph-crosschain?style=social)](https://github.com/karthyick/langgraph-crosschain)
+**Cross-chain node communication for multi-agent LangGraph systems.** 825 PyPI downloads.
+*Tech:* Python · LangGraph · LangChain · [PyPI](https://pypi.org/project/langgraph-crosschain/)
+
+### ⚡ [prompt-cache / semantic-llm-cache](https://github.com/karthyick/prompt-cache) · [![Stars](https://img.shields.io/github/stars/karthyick/prompt-cache?style=social)](https://github.com/karthyick/prompt-cache)
+**Cache LLM responses by semantic similarity — skip 20-40% of API calls.** 692 PyPI downloads.
+*Tech:* Python · Embeddings · Decorator API · [PyPI](https://pypi.org/project/semantic-llm-cache/)
+
+### 📄 [evaluation-first-attention](https://github.com/karthyick/evaluation-first-attention) · [![Stars](https://img.shields.io/github/stars/karthyick/evaluation-first-attention?style=social)](https://github.com/karthyick/evaluation-first-attention) — Research
+**Specification-driven generation via dynamic rubric conditioning and failure-weighted reattention.**
 *Tech:* PyTorch · Transformers · Research paper
 
-### 🧠 [llm_tinystories](https://github.com/karthyick/llm_tinystories)
-24.5M-param Transformer trained from scratch on RTX 5090 — 8.65 perplexity, 100% article generation with custom 10K tokenizer.
+### 🧠 [llm_tinystories](https://github.com/karthyick/llm_tinystories) · [![Stars](https://img.shields.io/github/stars/karthyick/llm_tinystories?style=social)](https://github.com/karthyick/llm_tinystories)
+**24.5M-param Transformer trained from scratch on RTX 5090** — 8.65 perplexity, 100% article generation with custom 10K tokenizer.
 *Tech:* PyTorch · HuggingFace · WandB · Flash Attention
 
-### 🔗 [langgraph-crosschain](https://github.com/karthyick/langgraph-crosschain)
-Cross-chain node communication extending LangGraph for multi-agent systems.
-*Tech:* Python · LangGraph · LangChain
-
-### 🗜️ [DISTILL](https://github.com/karthyick/DISTILL)
-JSON compression for LLM context windows — 6.6x ratio, lossless roundtrip, 3-layer compression.
-*Tech:* Python · Schema extraction · Dictionary encoding
-
-### 📉 [vanishing-gradient-rnn](https://github.com/karthyick/vanishing-gradient-rnn)
-Hands-on demonstration of vanishing gradients in RNNs vs LSTMs with real gradient metrics and visualizations.
-*Tech:* PyTorch · Matplotlib · Educational
-
-### 🧲 [MagneticClassifier](https://github.com/karthyick/MagneticClassifier)
-Novel ML classifier using magnetic force principles for decision boundary optimization.
-*Tech:* scikit-learn · NumPy · Jupyter
+> ⭐ **If any of these help you, please star the repo.** It's the single best signal that this work matters — and helps other developers discover it.
 
 ---
 
