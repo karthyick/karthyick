@@ -109,27 +109,27 @@ tools = [
 
 ## 🔥 Featured Projects
 
-### 🗜️ [DISTILL](https://github.com/karthyick/DISTILL) · [![Stars](https://img.shields.io/github/stars/karthyick/DISTILL?style=social)](https://github.com/karthyick/DISTILL)
+### 🗜️ [DISTILL](https://github.com/karthyick/DISTILL)
 **JSON compression for LLMs — 60-85% token reduction, lossless, 6.6× ratio.** 2,345 PyPI downloads.
 *Tech:* Python · Schema extraction · Dictionary encoding · [PyPI](https://pypi.org/project/distill-json/)
 
-### 🧩 [tracemaid](https://github.com/karthyick/tracemaid) · [![Stars](https://img.shields.io/github/stars/karthyick/tracemaid?style=social)](https://github.com/karthyick/tracemaid)
+### 🧩 [tracemaid](https://github.com/karthyick/tracemaid)
 **Auto-generate Mermaid diagrams from OpenTelemetry traces.** 890 PyPI downloads.
 *Tech:* Python · OpenTelemetry · FastAPI · ConvexHull + K-Means · [PyPI](https://pypi.org/project/tracemaid/)
 
-### 🔗 [langgraph-crosschain](https://github.com/karthyick/langgraph-crosschain) · [![Stars](https://img.shields.io/github/stars/karthyick/langgraph-crosschain?style=social)](https://github.com/karthyick/langgraph-crosschain)
+### 🔗 [langgraph-crosschain](https://github.com/karthyick/langgraph-crosschain)
 **Cross-chain node communication for multi-agent LangGraph systems.** 825 PyPI downloads.
 *Tech:* Python · LangGraph · LangChain · [PyPI](https://pypi.org/project/langgraph-crosschain/)
 
-### ⚡ [prompt-cache / semantic-llm-cache](https://github.com/karthyick/prompt-cache) · [![Stars](https://img.shields.io/github/stars/karthyick/prompt-cache?style=social)](https://github.com/karthyick/prompt-cache)
+### ⚡ [prompt-cache / semantic-llm-cache](https://github.com/karthyick/prompt-cache)
 **Cache LLM responses by semantic similarity — skip 20-40% of API calls.** 692 PyPI downloads.
 *Tech:* Python · Embeddings · Decorator API · [PyPI](https://pypi.org/project/semantic-llm-cache/)
 
-### 📄 [evaluation-first-attention](https://github.com/karthyick/evaluation-first-attention) · [![Stars](https://img.shields.io/github/stars/karthyick/evaluation-first-attention?style=social)](https://github.com/karthyick/evaluation-first-attention) — Research
+### 📄 [evaluation-first-attention](https://github.com/karthyick/evaluation-first-attention) — Research
 **Specification-driven generation via dynamic rubric conditioning and failure-weighted reattention.**
 *Tech:* PyTorch · Transformers · Research paper
 
-### 🧠 [llm_tinystories](https://github.com/karthyick/llm_tinystories) · [![Stars](https://img.shields.io/github/stars/karthyick/llm_tinystories?style=social)](https://github.com/karthyick/llm_tinystories)
+### 🧠 [llm_tinystories](https://github.com/karthyick/llm_tinystories)
 **24.5M-param Transformer trained from scratch on RTX 5090** — 8.65 perplexity, 100% article generation with custom 10K tokenizer.
 *Tech:* PyTorch · HuggingFace · WandB · Flash Attention
 
