@@ -2,9 +2,9 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=karthyick&style=flat-square&color=8b5cf6&label=Profile+Views)
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=AI%2FML+Engineer;Custom+LLM+Trainer;4+PyPI+packages+(4.7K%2B+downloads);8+VS+Code+extensions+(3.7K%2B+installs);Building+aichargeworks.com)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=AI%2FML+Engineer;Custom+LLM+Trainer;5+PyPI+packages+(11.6K%2B+downloads);8+VS+Code+extensions+(4.3K%2B+installs);Building+aichargeworks.com)
 
-**Senior AI/ML Engineer** shipping open-source tools for local LLMs, efficient inference, and custom model training. **8,458+ developers use my packages.**
+**Senior AI/ML Engineer** shipping open-source tools for local LLMs, efficient inference, and custom model training. **15,988+ developers use my packages.**
 
 ---
 
@@ -12,13 +12,13 @@
 
 | Metric | Value |
 |--------|-------|
-| 🐍 **PyPI Downloads** | **4,752** across 4 packages |
-| 🧩 **VS Code Installs** | **3,706** across 8 extensions |
+| 🐍 **PyPI Downloads** | **11,663** across 5 packages |
+| 🧩 **VS Code Installs** | **4,325** across 8 extensions |
 | 🧠 **Custom LLM Trained** | KR-Twin v12 — 91.7% accuracy (Qwen 3.5-9B + 4-bit quant) |
 | 📄 **Research Published** | Evaluation-First Attention (FWRL ablation) |
 | 🏆 **GitHub Trophies** | 5× S-rank (Commits, Languages, Longevity, SSS, Deep Committer) |
 
-> **⭐ Most useful repo:** [**distill-json**](https://github.com/karthyick/DISTILL) — 60-85% token reduction for LLM APIs · 2,345 downloads · **[Star it if it saves you tokens →](https://github.com/karthyick/DISTILL)**
+> **⭐ Most useful repo:** [**distill-json**](https://github.com/karthyick/DISTILL) — 60-85% token reduction for LLM APIs · 2,944 downloads
 
 ---
 
@@ -63,22 +63,23 @@ tools = [
 
 ## 📦 Published Packages
 
-### 🐍 PyPI — 4 packages · 4,752+ downloads
+### 🐍 PyPI — 5 packages · 11,663+ downloads
 
 | Package | Description | Downloads |
 |---------|-------------|-----------|
-| [**distill-json**](https://pypi.org/project/distill-json/) | JSON compression for LLMs — 60-85% token reduction, lossless | 2,345 |
-| [**tracemaid**](https://pypi.org/project/tracemaid/) | Execution trace visualizer for Python | 890 |
-| [**langgraph-crosschain**](https://pypi.org/project/langgraph-crosschain/) | Cross-chain node communication for LangGraph | 825 |
-| [**semantic-llm-cache**](https://pypi.org/project/semantic-llm-cache/) | Decorator-based semantic LLM response caching | 692 |
+| [**distill-json**](https://pypi.org/project/distill-json/) | JSON compression for LLMs — 60-85% token reduction, lossless | 2,944 |
+| [**tracemaid**](https://pypi.org/project/tracemaid/) | Execution trace visualizer for Python | 3,626 |
+| [**rubricon**](https://pypi.org/project/rubricon/) | Specification-first generation for LLMs — EFA paper reference impl | 3,293 |
+| [**semantic-llm-cache**](https://pypi.org/project/semantic-llm-cache/) | Decorator-based semantic LLM response caching | 1,097 |
+| [**langgraph-crosschain**](https://pypi.org/project/langgraph-crosschain/) | Cross-chain node communication for LangGraph | 703 |
 
-### 🧩 VS Code Marketplace — 8 extensions · 3,706+ installs
+### 🧩 VS Code Marketplace — 8 extensions · 4,325+ installs
 
 | Extension | Description | Installs |
 |-----------|-------------|----------|
-| [**Python Venv Activator**](https://marketplace.visualstudio.com/items?itemName=krextensions.venv-activator) | Auto-activate Python virtual environments | 2,028 |
-| [**Code to Flowchart**](https://marketplace.visualstudio.com/items?itemName=krextensions.code-to-flowchart) | Visualize code as interactive flowcharts | 1,566 |
-| [Code2Summarize](https://marketplace.visualstudio.com/items?itemName=krextensions.code2summarize), [Code2PR](https://marketplace.visualstudio.com/items?itemName=krextensions.code2pr), [Code2Assist](https://marketplace.visualstudio.com/items?itemName=krextensions.code2assist), [Folder Structure Creator](https://marketplace.visualstudio.com/items?itemName=krextensions.folder-structure-creator), [Shared Venv Activator](https://marketplace.visualstudio.com/items?itemName=krextensions.shared-venv-activator), [Package to Flowchart](https://marketplace.visualstudio.com/items?itemName=krextensions.package-to-flowchart) | Developer productivity extensions | 112 combined |
+| [**Python Venv Activator**](https://marketplace.visualstudio.com/items?itemName=krextensions.venv-activator) | Auto-activate Python virtual environments | 2,287 |
+| [**Code to Flowchart**](https://marketplace.visualstudio.com/items?itemName=krextensions.code-to-flowchart) | Visualize code as interactive flowcharts | 1,896 |
+| [Code2Summarize](https://marketplace.visualstudio.com/items?itemName=krextensions.code2summarize), [Code2PR](https://marketplace.visualstudio.com/items?itemName=krextensions.code2pr), [Code2Assist](https://marketplace.visualstudio.com/items?itemName=krextensions.code2assist), [Folder Structure Creator](https://marketplace.visualstudio.com/items?itemName=krextensions.folder-structure-creator), [Shared Venv Activator](https://marketplace.visualstudio.com/items?itemName=krextensions.shared-venv-activator), [Package to Flowchart](https://marketplace.visualstudio.com/items?itemName=krextensions.package-to-flowchart) | Developer productivity extensions | 142 combined |
 
 ---
 
@@ -110,20 +111,24 @@ tools = [
 ## 🔥 Featured Projects
 
 ### 🗜️ [DISTILL](https://github.com/karthyick/DISTILL)
-**JSON compression for LLMs — 60-85% token reduction, lossless, 6.6× ratio.** 2,345 PyPI downloads.
+**JSON compression for LLMs — 60-85% token reduction, lossless, 6.6× ratio.** 2,944 PyPI downloads.
 *Tech:* Python · Schema extraction · Dictionary encoding · [PyPI](https://pypi.org/project/distill-json/)
 
 ### 🧩 [tracemaid](https://github.com/karthyick/tracemaid)
-**Auto-generate Mermaid diagrams from OpenTelemetry traces.** 890 PyPI downloads.
+**Auto-generate Mermaid diagrams from OpenTelemetry traces.** 3,626 PyPI downloads.
 *Tech:* Python · OpenTelemetry · FastAPI · ConvexHull + K-Means · [PyPI](https://pypi.org/project/tracemaid/)
 
-### 🔗 [langgraph-crosschain](https://github.com/karthyick/langgraph-crosschain)
-**Cross-chain node communication for multi-agent LangGraph systems.** 825 PyPI downloads.
-*Tech:* Python · LangGraph · LangChain · [PyPI](https://pypi.org/project/langgraph-crosschain/)
+### 📐 [rubricon](https://github.com/karthyick/rubricon)
+**Specification-first generation for LLMs — generates evaluation criteria before generation, conditions on them via progressive masking.** 3,293 PyPI downloads.
+*Tech:* PyTorch · Transformers · Reference impl of EFA paper · [PyPI](https://pypi.org/project/rubricon/)
 
 ### ⚡ [prompt-cache / semantic-llm-cache](https://github.com/karthyick/prompt-cache)
-**Cache LLM responses by semantic similarity — skip 20-40% of API calls.** 692 PyPI downloads.
+**Cache LLM responses by semantic similarity — skip 20-40% of API calls.** 1,097 PyPI downloads.
 *Tech:* Python · Embeddings · Decorator API · [PyPI](https://pypi.org/project/semantic-llm-cache/)
+
+### 🔗 [langgraph-crosschain](https://github.com/karthyick/langgraph-crosschain)
+**Cross-chain node communication for multi-agent LangGraph systems.** 703 PyPI downloads.
+*Tech:* Python · LangGraph · LangChain · [PyPI](https://pypi.org/project/langgraph-crosschain/)
 
 ### 📄 [evaluation-first-attention](https://github.com/karthyick/evaluation-first-attention) — Research
 **Specification-driven generation via dynamic rubric conditioning and failure-weighted reattention.**
