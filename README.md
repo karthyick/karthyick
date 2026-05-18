@@ -79,7 +79,7 @@ tools = [
 |-----------|-------------|----------|
 | [**Python Venv Activator**](https://marketplace.visualstudio.com/items?itemName=krextensions.venv-activator) | Auto-activate Python virtual environments | 2,287 |
 | [**Code to Flowchart**](https://marketplace.visualstudio.com/items?itemName=krextensions.code-to-flowchart) | Visualize code as interactive flowcharts | 1,896 |
-| [Code2Summarize](https://marketplace.visualstudio.com/items?itemName=krextensions.code2summarize), [Code2PR](https://marketplace.visualstudio.com/items?itemName=krextensions.code2pr), [Code2Assist](https://marketplace.visualstudio.com/items?itemName=krextensions.code2assist), [Folder Structure Creator](https://marketplace.visualstudio.com/items?itemName=krextensions.folder-structure-creator), [Shared Venv Activator](https://marketplace.visualstudio.com/items?itemName=krextensions.shared-venv-activator), [Package to Flowchart](https://marketplace.visualstudio.com/items?itemName=krextensions.package-to-flowchart) | Developer productivity extensions | 142 combined |
+| [Code2Summarize](https://marketplace.visualstudio.com/items?itemName=krextensions.code2summarize), [Code2PR](https://marketplace.visualstudio.com/items?itemName=krextensions.code2pr), [Code2Assist](https://marketplace.visualstudio.com/items?itemName=krextensions.code2assist), [Folder Structure Creator](https://marketplace.visualstudio.com/items?itemName=krextensions.folder-structure-creator), [Shared Venv Activator](https://marketplace.visualstudio.com/items?itemName=krextensions.shared-venv-activator), [Package to Flowchart](https://marketplace.visualstudio.com/items?itemName=krextensions.package-to-flowchart) | Developer productivity extensions | 142 |
 
 ---
 
