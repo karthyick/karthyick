@@ -1,214 +1,121 @@
-# 👋 Hi, I'm **Karthick Raja M**
+<h1 align="center">Karthick Raja M</h1>
 
-![Profile Views](https://komarev.com/ghpvc/?username=karthyick&style=flat-square&color=8b5cf6&label=Profile+Views)
+<p align="center">
+  <em>I build the unglamorous layer that makes LLM systems cheap to run, easy to inspect, and identical on the second run.</em>
+</p>
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=AI%2FML+Engineer;Custom+LLM+Trainer;8+PyPI+packages+(18.8K%2B+downloads);8+VS+Code+extensions+(5K%2B+installs);Building+aichargeworks.com)
-
-**Senior AI/ML Engineer** shipping open-source tools for local LLMs, efficient inference, and custom model training. **23,874+ developers use my packages.**
-
----
-
-## 📊 Impact
-
-| Metric | Value |
-|--------|-------|
-| 🐍 **PyPI Downloads** | **18,796** across 8 packages |
-| 🧩 **VS Code Installs** | **5,078** across 8 extensions |
-| 🧠 **Custom LLM Trained** | KR-Twin v12 — 91.7% accuracy (Qwen 3.5-9B + 4-bit quant) |
-| 📄 **Research Published** | Evaluation-First Attention (FWRL ablation) |
-| 🏆 **GitHub Trophies** | 5× S-rank (Commits, Languages, Longevity, SSS, Deep Committer) |
-
-> **⭐ Most useful repo:** [**distill-json**](https://github.com/karthyick/DISTILL) — 60-85% token reduction for LLM APIs · 2,974 downloads
+<p align="center">
+  <a href="https://pypi.org/user/karthyick/"><img alt="PyPI downloads" src="https://img.shields.io/badge/PyPI-18%2C796%20downloads%20%C2%B7%208%20packages-3775A9?style=flat-square&logo=pypi&logoColor=white"></a>
+  <a href="https://marketplace.visualstudio.com/publishers/krextensions"><img alt="VS Code installs" src="https://img.shields.io/badge/VS%20Code-5%2C078%20installs%20%C2%B7%208%20extensions-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"></a>
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=karthyick&style=flat-square&color=8b5cf6&label=Profile+views">
+</p>
 
 ---
 
-## 🤖 AI & Machine Learning First
+## The through-line
 
-### 🧠 Core AI Expertise
-- **LLM Engineering:** Custom model fine-tuning (LoRA, QLoRA), RAG architectures, prompt engineering
-- **Agentic AI:** Multi-agent systems with LangChain, autonomous workflows, tool-use implementations
-- **Production AI:** MLOps pipelines, model versioning, A/B testing, monitoring at scale
-- **Vector Systems:** FAISS, Pinecone, ChromaDB for semantic search and retrieval
+Eight packages, one problem. An agent loop leaks tokens at every stage, and none of
+those stages is observable by default. Each package below is one stage made cheap or
+made visible — and they compose:
 
-### 🚀 Current AI Initiatives
-- **Custom SLM Training:** TinyStories-scale Transformers from scratch on RTX 5090, 10K-vocab tokenizers
-- **LLM-to-SLM Distillation:** Compressing large models into domain-specific small models
-- **Eval-First Attention:** Research on specification-driven generation with dynamic rubric conditioning
-- **KR-Twin:** Personal-style LLM fine-tuned on Qwen3.5-9B, 91.7% accuracy
+```mermaid
+flowchart LR
+  A["1 · shrink what goes in<br/>context-rainbow · distill-json · rubricon<br/>route only relevant knowledge, compress<br/>the payload, spec before generating"]
+  B["2 · don't call twice<br/>semantic-llm-cache<br/>cache by meaning, not by string"]
+  C["3 · run it the same way twice<br/>auto-any · langgraph-crosschain<br/>deterministic runs, replayable receipts,<br/>node-to-node across chains"]
+  D["4 · keep what happened<br/>tracemaid · clinotes<br/>traces become diagrams, decisions<br/>become git-native memory"]
 
-### 📊 AI/ML Stack
-```python
-frameworks = [
-    "PyTorch", "TensorFlow", "Transformers",
-    "LangChain", "LangGraph", "LlamaIndex", "PEFT", "scikit-learn"
-]
+  A --> B --> C --> D
+  D -.->|the next task starts warmer| A
 
-models = [
-    "GPT-4", "Claude-4", "Llama-3", "DeepSeek",
-    "Mistral", "Phi-3", "Qwen3.5", "Gemini", "CodeLlama"
-]
-
-vectorDBs = [
-    "FAISS", "Pinecone", "Weaviate",
-    "ChromaDB", "pgvector"
-]
-
-tools = [
-    "OpenAI", "Anthropic", "Azure OpenAI",
-    "Ollama", "HuggingFace", "MLflow", "WandB"
-]
+  style A fill:#ede9fe,stroke:#8b5cf6,stroke-width:2px,color:#1f2937
+  style B fill:#ede9fe,stroke:#8b5cf6,stroke-width:2px,color:#1f2937
+  style C fill:#ede9fe,stroke:#8b5cf6,stroke-width:2px,color:#1f2937
+  style D fill:#d1fae5,stroke:#10b981,stroke-width:2px,color:#1f2937
 ```
 
----
-
-## 📦 Published Packages
-
-### 🐍 PyPI — 8 packages · 18,796+ downloads
-
-| Package | Description | Downloads |
-|---------|-------------|-----------|
-| [**distill-json**](https://pypi.org/project/distill-json/) | JSON compression for LLMs — 60-85% token reduction, lossless | 2,974 |
-| [**tracemaid**](https://pypi.org/project/tracemaid/) | Execution trace visualizer for Python | 4,442 |
-| [**rubricon**](https://pypi.org/project/rubricon/) | Specification-first generation for LLMs — EFA paper reference impl | 4,198 |
-| [**semantic-llm-cache**](https://pypi.org/project/semantic-llm-cache/) | Decorator-based semantic LLM response caching | 2,378 |
-| [**clinotes**](https://pypi.org/project/clinotes/) | Git-native per-project memory for coding agents (MCP server) | 1,752 |
-| [**auto-any**](https://pypi.org/project/auto-any/) | Deterministic browser and task automation with replayable receipts | 1,473 |
-| [**langgraph-crosschain**](https://pypi.org/project/langgraph-crosschain/) | Cross-chain node communication for LangGraph | 1,093 |
-| [**context-rainbow**](https://pypi.org/project/context-rainbow/) | Color-aware context routing — load only the knowledge a task needs | 486 |
-
-### 🧩 VS Code Marketplace — 8 extensions · 5,078+ installs
-
-| Extension | Description | Installs |
-|-----------|-------------|----------|
-| [**Python Venv Activator**](https://marketplace.visualstudio.com/items?itemName=krextensions.venv-activator) | Auto-activate Python virtual environments | 2,644 |
-| [**Code to Flowchart**](https://marketplace.visualstudio.com/items?itemName=krextensions.code-to-flowchart) | Visualize code as interactive flowcharts | 2,243 |
-| [Code2Summarize](https://marketplace.visualstudio.com/items?itemName=krextensions.code2summarize), [Code2PR](https://marketplace.visualstudio.com/items?itemName=krextensions.code2pr), [Code2Assist](https://marketplace.visualstudio.com/items?itemName=krextensions.code2assist), [Folder Structure Creator](https://marketplace.visualstudio.com/items?itemName=krextensions.folder-structure-creator), [Shared Venv Activator](https://marketplace.visualstudio.com/items?itemName=krextensions.shared-venv-activator), [Package to Flowchart](https://marketplace.visualstudio.com/items?itemName=krextensions.package-to-flowchart) | Developer productivity extensions | 191 |
+The dotted edge is the point. Most agent stacks throw the run away; this one feeds it
+back, so the next task starts with what the last one learned.
 
 ---
 
-## ☁️ Cloud & Infrastructure
+## 🐍 PyPI — 8 packages · 18,796 downloads
 
-### 🔧 Cloud Platforms
-- **Azure:** AI Services, Cognitive Services, Function Apps, AKS, Cosmos DB
-- **AWS:** SageMaker, EC2, S3, Lambda, DynamoDB
-- **Ops:** Docker, Kubernetes, MLflow, Weights & Biases
+| Package | What it does | Version | Downloads |
+|---|---|---|---|
+| [**tracemaid**](https://pypi.org/project/tracemaid/) · [src](https://github.com/karthyick/tracemaid) | OpenTelemetry traces → Mermaid diagrams you can actually read | ![v](https://img.shields.io/pypi/v/tracemaid?style=flat-square&label=) | 4,442 |
+| [**rubricon**](https://pypi.org/project/rubricon/) | Specification-first generation — write the rubric, *then* generate against it | ![v](https://img.shields.io/pypi/v/rubricon?style=flat-square&label=) | 4,198 |
+| [**distill-json**](https://pypi.org/project/distill-json/) · [src](https://github.com/karthyick/DISTILL) | Lossless JSON compression for LLM payloads — 60-85% token reduction, 6.6× ratio | ![v](https://img.shields.io/pypi/v/distill-json?style=flat-square&label=) | 2,974 |
+| [**semantic-llm-cache**](https://pypi.org/project/semantic-llm-cache/) · [src](https://github.com/karthyick/prompt-cache) | Cache by *meaning*, not by string — one decorator, 20-40% of calls never leave | ![v](https://img.shields.io/pypi/v/semantic-llm-cache?style=flat-square&label=) | 2,378 |
+| [**clinotes**](https://pypi.org/project/clinotes/) · [src](https://github.com/karthyick/clinotes) | Git-native project memory for coding agents — decisions as Markdown, MCP-ready | ![v](https://img.shields.io/pypi/v/clinotes?style=flat-square&label=) | 1,752 |
+| [**auto-any**](https://pypi.org/project/auto-any/) | Browser and task automation that replays — every run is a signed receipt | ![v](https://img.shields.io/pypi/v/auto-any?style=flat-square&label=) | 1,473 |
+| [**langgraph-crosschain**](https://pypi.org/project/langgraph-crosschain/) · [src](https://github.com/karthyick/langgraph-crosschain) | Direct node-to-node communication across separate LangGraph chains | ![v](https://img.shields.io/pypi/v/langgraph-crosschain?style=flat-square&label=) | 1,093 |
+| [**context-rainbow**](https://pypi.org/project/context-rainbow/) · [src](https://github.com/karthyick/context-rainbow) | Color-aware context routing — progressive knowledge loading, not bulk stuffing | ![v](https://img.shields.io/pypi/v/context-rainbow?style=flat-square&label=) | 486 |
 
-### 📈 Certifications
-- Microsoft Azure Fundamentals (AZ-900)
-- Azure AI Fundamentals (AI-900)
-- Azure Data Fundamentals (DP-900)
-- Power Platform Fundamentals (PL-900)
-- Executive PG Program in AI & ML
+<sub>Eight releases between Nov 2025 and Aug 2026. Version badges are live; download
+totals are cumulative, refreshed from pypistats.</sub>
 
----
+## 🧩 VS Code — 8 extensions · 5,078 installs
 
-## 💻 Full-Stack Development
-
-### 🛠️ Tech Stack
-- **Backend:** Python (FastAPI, Flask), C# (.NET Core), Node.js
-- **Frontend:** React, Angular, TypeScript, Tailwind CSS, Three.js
-- **Databases:** SQL Server, PostgreSQL, MongoDB, DuckDB, Redis
-
----
-
-## 🔥 Featured Projects
-
-### 🗜️ [DISTILL](https://github.com/karthyick/DISTILL)
-**JSON compression for LLMs — 60-85% token reduction, lossless, 6.6× ratio.** 2,974 PyPI downloads.
-*Tech:* Python · Schema extraction · Dictionary encoding · [PyPI](https://pypi.org/project/distill-json/)
-
-### 🧩 [tracemaid](https://github.com/karthyick/tracemaid)
-**Auto-generate Mermaid diagrams from OpenTelemetry traces.** 4,442 PyPI downloads.
-*Tech:* Python · OpenTelemetry · FastAPI · ConvexHull + K-Means · [PyPI](https://pypi.org/project/tracemaid/)
-
-### 📐 [rubricon](https://github.com/karthyick/rubricon)
-**Specification-first generation for LLMs — generates evaluation criteria before generation, conditions on them via progressive masking.** 4,198 PyPI downloads.
-*Tech:* PyTorch · Transformers · Reference impl of EFA paper · [PyPI](https://pypi.org/project/rubricon/)
-
-### ⚡ [prompt-cache / semantic-llm-cache](https://github.com/karthyick/prompt-cache)
-**Cache LLM responses by semantic similarity — skip 20-40% of API calls.** 2,378 PyPI downloads.
-*Tech:* Python · Embeddings · Decorator API · [PyPI](https://pypi.org/project/semantic-llm-cache/)
-
-### 🔗 [langgraph-crosschain](https://github.com/karthyick/langgraph-crosschain)
-**Cross-chain node communication for multi-agent LangGraph systems.** 1,093 PyPI downloads.
-*Tech:* Python · LangGraph · LangChain · [PyPI](https://pypi.org/project/langgraph-crosschain/)
-
-### 📄 [evaluation-first-attention](https://github.com/karthyick/evaluation-first-attention) — Research
-**Specification-driven generation via dynamic rubric conditioning and failure-weighted reattention.**
-*Tech:* PyTorch · Transformers · Research paper
-
-### 🧠 [llm_tinystories](https://github.com/karthyick/llm_tinystories)
-**24.5M-param Transformer trained from scratch on RTX 5090** — 8.65 perplexity, 100% article generation with custom 10K tokenizer.
-*Tech:* PyTorch · HuggingFace · WandB · Flash Attention
+| Extension | What it does | Installs |
+|---|---|---|
+| [**Python Venv Activator**](https://marketplace.visualstudio.com/items?itemName=krextensions.venv-activator) | Activates the right venv the moment you open the folder | 2,644 |
+| [**Code to Flowchart**](https://marketplace.visualstudio.com/items?itemName=krextensions.code-to-flowchart) | Turns the function under your cursor into an interactive flowchart | 2,243 |
+| [Code2Summarize](https://marketplace.visualstudio.com/items?itemName=krextensions.code2summarize) · [Code2PR](https://marketplace.visualstudio.com/items?itemName=krextensions.code2pr) · [Code2Assist](https://marketplace.visualstudio.com/items?itemName=krextensions.code2assist) · [Folder Structure Creator](https://marketplace.visualstudio.com/items?itemName=krextensions.folder-structure-creator) · [Shared Venv Activator](https://marketplace.visualstudio.com/items?itemName=krextensions.shared-venv-activator) · [Package to Flowchart](https://marketplace.visualstudio.com/items?itemName=krextensions.package-to-flowchart) | Six smaller editor tools | 191 |
 
 ---
 
-## 🖥️ AI Development Setup
+## 🔬 Research & models
 
-### Primary Workstation (KR-ULTRA)
-```yaml
-CPU: AMD Ryzen 9 9950X (16-core, 32 threads)
-GPU: NVIDIA GeForce RTX 5090 (32GB VRAM)
-RAM: 96GB DDR5 @ 5600MHz
-Storage: Samsung 990 PRO 2TB NVMe
-Purpose: LLM training, fine-tuning, inference
-```
+**[Evaluation-First Attention](https://github.com/karthyick/evaluation-first-attention)** — specification-driven
+generation via dynamic rubric conditioning and failure-weighted reattention. Instead of generating
+and then scoring, the rubric is produced first and conditions the generation itself.
+`rubricon` above is the reference implementation.
 
-### Secondary System (KR-CORE)
-```yaml
-CPU: AMD Ryzen 9 7900X (12-core, 24 threads)
-GPU: NVIDIA RTX 4070 SUPER (12GB VRAM)
-RAM: 32GB DDR5
-Purpose: Distributed training, model serving, Docker hosting
-```
+**[llm_tinystories](https://github.com/karthyick/llm_tinystories)** — a 24.5M-parameter Transformer trained
+from scratch: custom 10K-vocab tokenizer, 8.65 perplexity, 100% article-generation accuracy.
+Trained locally on an RTX 5090 (32GB) — the whole point was proving how far a *small* model gets
+on a well-shaped domain.
+
+**Domain SLM distillation** — compressing large general models into small domain-specific ones,
+which is the same thesis as the packages: get the same answer for less.
 
 ---
 
-## 📈 GitHub Stats
+## 🛠️ What I actually reach for
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=karthyick&show_icons=true&theme=radical&include_all_commits=true)
+| | |
+|---|---|
+| **LLM / agents** | PyTorch · Transformers · PEFT (LoRA, QLoRA) · LangChain · LangGraph · MCP · Ollama |
+| **Models** | Claude (Opus / Sonnet) · GPT · Llama · Qwen · DeepSeek · Mistral · Phi |
+| **Retrieval** | FAISS · pgvector · ChromaDB · Pinecone · hybrid + rerank |
+| **Serving** | FastAPI · Docker · Azure (AI Services, Functions, AKS, Cosmos) · AWS (SageMaker, Lambda) |
+| **Data / apps** | PostgreSQL · SQL Server · DuckDB · Redis · React · TypeScript · Tailwind |
+| **Ops** | GitHub Actions · MLflow · Weights & Biases · OpenTelemetry |
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=karthyick&layout=compact&theme=radical&langs_count=10)
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=karthyick&theme=react-dark&hide_border=true)
-
-![Trophies](https://github-trophies.vercel.app/?username=karthyick&theme=radical&row=2&column=5&margin-w=15)
-
----
-
-## 🎯 Current Focus Areas
-
-- 🧬 **Custom SLM Training** — Training small language models from scratch on domain-specific data
-- 📄 **Eval-First Attention** — Research on specification-driven generation
-- 🔄 **LLM-to-SLM Distillation** — Compressing large models into efficient small ones
-- 🤖 **Agentic AI Systems** — Autonomous agents for enterprise applications
-- 📊 **RAG Architecture** — Advanced retrieval systems with <100ms latency
+<sub>Certified: Azure AZ-900 · AI-900 · DP-900 · PL-900 · Executive PG in AI & ML.</sub>
 
 ---
 
-## 📫 Connect with Me
+## 📈 Activity
 
-- 🌐 [Portfolio](https://karthyick.github.io)
-- 💼 [LinkedIn](https://www.linkedin.com/in/karthick-raja-mohan-753431123/)
-- 📧 [karthickrajam18@gmail.com](mailto:karthickrajam18@gmail.com)
-- 🏢 **Current:** Lead AI/ML Engineer @ Appian · Building [aichargeworks.com](https://aichargeworks.com)
-- 📍 **Location:** Chennai, India
+<p align="center">
+  <img alt="Streak" src="https://streak-stats.demolab.com/?user=karthyick&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D">
+</p>
 
----
-
-## 💡 Open for Collaboration
-
-Interested in:
-- 🤝 Open-source AI/ML projects
-- 🧬 LLM fine-tuning and optimization
-- 🏗️ Enterprise AI architecture design
-- 📚 Knowledge sharing and mentoring
+<p align="center">
+  <img alt="Followers" src="https://img.shields.io/github/followers/karthyick?style=flat-square&logo=github&label=followers&color=8b5cf6">
+  <img alt="Stars" src="https://img.shields.io/github/stars/karthyick?affiliations=OWNER&style=flat-square&logo=github&label=stars&color=8b5cf6">
+  <img alt="Public repos" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fkarthyick&query=%24.public_repos&style=flat-square&logo=github&label=public%20repos&color=8b5cf6">
+</p>
 
 ---
 
-> ⚡️ *"Building intelligent systems that augment human capability, not replace it"*
+## 📫 Elsewhere
 
----
+[Portfolio](https://karthyick.github.io) · [LinkedIn](https://www.linkedin.com/in/karthick-raja-mohan-753431123/) · [karthickrajam18@gmail.com](mailto:karthickrajam18@gmail.com) · [aichargeworks.com](https://aichargeworks.com) — my R&D lab, where all of the above gets tried first
 
-### 🔍 Keywords
-`Agentic AI` `LLM Engineering` `RAG Systems` `Multi-Agent Architecture` `PyTorch` `LangChain` `Transformers` `Vector Databases` `MLOps` `Fine-tuning` `Claude` `GPT-4` `Llama` `Qwen` `FAISS` `Pinecone` `Azure AI` `AWS Bedrock` `Enterprise AI` `Production ML` `Full-Stack` `Cloud Architecture` `PyPI` `VS Code Extensions` `Custom SLM` `Distillation`
+📍 Chennai, India · Lead AI/ML Engineer @ Appian
+
+Happy to talk about agent reliability, token economics, small-model training, or anything above
+that you think is wrong.
