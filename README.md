@@ -1,8 +1,8 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:6366f1,100:10b981&height=200&section=header&text=Karthick%20Raja%20M&fontSize=48&fontColor=ffffff&fontAlignY=32&desc=Fewer%20tokens%20in.%20No%20call%20twice.%20Every%20run%20replayable.%20That%27s%20the%20layer%20I%20build.&descAlignY=52&descSize=16&animation=fadeIn" alt="header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:6366f1,100:10b981&height=200&section=header&text=Karthick%20Raja%20M&fontSize=48&fontColor=ffffff&fontAlignY=32&desc=Applied%20LLM%20research%2C%20built%20for%20production.&descAlignY=52&descSize=16&animation=fadeIn" alt="header"/>
 
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3200&pause=900&color=8B5CF6&center=true&vCenter=true&width=620&lines=Senior+AI%2FML+Engineer+%C2%B7+10%2B+years;8+PyPI+packages+%C2%B7+19%2C977+downloads;8+VS+Code+extensions+%C2%B7+5%2C192+installs;Agentic+AI+%C2%B7+RAG+%C2%B7+LLM+fine-tuning;Shrink+%C2%B7+cache+%C2%B7+replay+%C2%B7+remember" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3200&pause=900&color=8B5CF6&center=true&vCenter=true&width=620&lines=Lead+AI%2FML+Engineer+%40+Appian;Applied+LLM+research+%C2%B7+built+for+production;EFA+paper+%C2%B7+96.2%25+on+MT-Bench;24.5M+LLM+trained+from+scratch;8+PyPI+packages+%C2%B7+19%2C977+downloads;8+VS+Code+extensions+%C2%B7+5%2C192+installs" alt="Typing SVG"/>
   </a>
 </p>
 
@@ -78,9 +78,10 @@ flowchart LR
 <summary><b>🔬 Research & models</b></summary>
 <br/>
 
-**[Evaluation-First Attention](https://github.com/karthyick/evaluation-first-attention)** — specification-driven generation
-via dynamic rubric conditioning and failure-weighted reattention. Instead of generating and then scoring, the rubric is
-produced first and conditions the generation itself. `rubricon` is the reference implementation.
+**[Evaluation-First Generation (EFA paper)](https://github.com/karthyick/evaluation-first-attention/blob/main/paper/EFA_Paper_Final.pdf)** — specification-driven
+LLM output quality via dynamic rubric conditioning and iterative criteria refinement. LLMs that check their own work: the rubric
+is produced first and conditions the generation itself. 96.2% all-pass on MT-Bench vs 92.5% for the best baseline.
+`rubricon` is the reference implementation ([code](https://github.com/karthyick/evaluation-first-attention)).
 
 **[llm_tinystories](https://github.com/karthyick/llm_tinystories)** — a 24.5M-parameter Transformer trained from scratch:
 custom 10K-vocab tokenizer, 8.65 perplexity, 100% article-generation accuracy. Trained locally on an RTX 5090 — the point
@@ -156,7 +157,7 @@ packages: get the same answer for less.
 
 <p align="center">
   <a href="https://karthyick.github.io"><img src="https://img.shields.io/badge/Portfolio-8b5cf6?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"/></a>
-  <a href="https://www.linkedin.com/in/karthick-raja-mohan-753431123/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/karthyick/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:karthickrajam18@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://aichargeworks.com"><img src="https://img.shields.io/badge/aichargeworks.com-10b981?style=for-the-badge&logo=rocket&logoColor=white" alt="Lab"/></a>
 </p>
