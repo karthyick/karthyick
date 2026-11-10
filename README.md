@@ -2,13 +2,13 @@
 
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3200&pause=900&color=8B5CF6&center=true&vCenter=true&width=620&lines=Lead+AI%2FML+Engineer+%40+Appian;Applied+LLM+research+%C2%B7+built+for+production;EFA+paper+%C2%B7+96.2%25+on+MT-Bench;24.5M+LLM+trained+from+scratch;8+PyPI+packages+%C2%B7+20%2C746+downloads;8+VS+Code+extensions+%C2%B7+5%2C324+installs" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3200&pause=900&color=8B5CF6&center=true&vCenter=true&width=620&lines=Lead+AI%2FML+Engineer+%40+Appian;Applied+LLM+research+%C2%B7+built+for+production;EFA+paper+%C2%B7+96.2%25+on+MT-Bench;24.5M+LLM+trained+from+scratch;8+PyPI+packages+%C2%B7+22%2C766+downloads;8+VS+Code+extensions+%C2%B7+5%2C498+installs" alt="Typing SVG"/>
   </a>
 </p>
 
 <p align="center">
-  <a href="https://pypi.org/user/karthyick/"><img src="https://img.shields.io/badge/PyPI-20%2C746%20downloads-3775A9?style=for-the-badge&logo=pypi&logoColor=white&labelColor=2b5b8c" alt="PyPI"/></a>
-  <a href="https://marketplace.visualstudio.com/publishers/krextensions"><img src="https://img.shields.io/badge/VS%20Code-5%2C324%20installs-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white&labelColor=005a99" alt="VS Code"/></a>
+  <a href="https://pypi.org/user/karthyick/"><img src="https://img.shields.io/badge/PyPI-22%2C766%20downloads-3775A9?style=for-the-badge&logo=pypi&logoColor=white&labelColor=2b5b8c" alt="PyPI"/></a>
+  <a href="https://marketplace.visualstudio.com/publishers/krextensions"><img src="https://img.shields.io/badge/VS%20Code-5%2C498%20installs-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white&labelColor=005a99" alt="VS Code"/></a>
   <a href="https://github.com/karthyick?tab=followers"><img src="https://custom-icon-badges.demolab.com/github/followers/karthyick?color=8b5cf6&labelColor=6d28d9&style=for-the-badge&logo=person-add&label=Follow&logoColor=white" alt="Followers"/></a>
   <a href="https://github.com/karthyick?tab=repositories&sort=stargazers"><img src="https://custom-icon-badges.demolab.com/github/stars/karthyick?color=10b981&labelColor=047857&style=for-the-badge&logo=star&logoColor=white" alt="Stars"/></a>
   <img src="https://komarev.com/ghpvc/?username=karthyick&style=for-the-badge&color=8b5cf6&label=VIEWS" alt="Views"/>
@@ -44,33 +44,33 @@ flowchart LR
 <h3 align="center">📦 Published work</h3>
 
 <details open>
-<summary><b>🐍 PyPI — 8 packages · 20,746 downloads</b></summary>
+<summary><b>🐍 PyPI — 8 packages · 22,766 downloads</b></summary>
 <br/>
 
 | Package | What it does | Version | Downloads |
 |---|---|---|---|
-| [**tracemaid**](https://pypi.org/project/tracemaid/) · [src](https://github.com/karthyick/tracemaid) | OpenTelemetry traces → Mermaid diagrams you can actually read | ![v](https://img.shields.io/pypi/v/tracemaid?style=flat-square&color=8b5cf6&label=) | `4,492` |
-| [**rubricon**](https://pypi.org/project/rubricon/) | Specification-first generation — write the rubric, *then* generate against it | ![v](https://img.shields.io/pypi/v/rubricon?style=flat-square&color=8b5cf6&label=) | `4,258` |
-| [**distill-json**](https://pypi.org/project/distill-json/) · [src](https://github.com/karthyick/DISTILL) | Lossless JSON compression for LLM payloads — 60-85% token reduction, 6.6× ratio | ![v](https://img.shields.io/pypi/v/distill-json?style=flat-square&color=8b5cf6&label=) | `3,115` |
-| [**auto-any**](https://pypi.org/project/auto-any/) | Browser and task automation that replays — every run is a signed receipt | ![v](https://img.shields.io/pypi/v/auto-any?style=flat-square&color=8b5cf6&label=) | `2,624` |
-| [**semantic-llm-cache**](https://pypi.org/project/semantic-llm-cache/) · [src](https://github.com/karthyick/prompt-cache) | Cache by *meaning*, not by string — one decorator, 20-40% of calls never leave | ![v](https://img.shields.io/pypi/v/semantic-llm-cache?style=flat-square&color=8b5cf6&label=) | `2,605` |
-| [**clinotes**](https://pypi.org/project/clinotes/) · [src](https://github.com/karthyick/clinotes) | Git-native project memory for coding agents — decisions as Markdown, MCP-ready | ![v](https://img.shields.io/pypi/v/clinotes?style=flat-square&color=8b5cf6&label=) | `1,896` |
-| [**langgraph-crosschain**](https://pypi.org/project/langgraph-crosschain/) · [src](https://github.com/karthyick/langgraph-crosschain) | Direct node-to-node communication across separate LangGraph chains | ![v](https://img.shields.io/pypi/v/langgraph-crosschain?style=flat-square&color=8b5cf6&label=) | `1,159` |
-| [**context-rainbow**](https://pypi.org/project/context-rainbow/) · [src](https://github.com/karthyick/context-rainbow) | Color-aware context routing — progressive knowledge loading, not bulk stuffing | ![v](https://img.shields.io/pypi/v/context-rainbow?style=flat-square&color=8b5cf6&label=) | `597` |
+| [**tracemaid**](https://pypi.org/project/tracemaid/) · [src](https://github.com/karthyick/tracemaid) | OpenTelemetry traces → Mermaid diagrams you can actually read | ![v](https://img.shields.io/pypi/v/tracemaid?style=flat-square&color=8b5cf6&label=) | `4,561` |
+| [**rubricon**](https://pypi.org/project/rubricon/) | Specification-first generation — write the rubric, *then* generate against it | ![v](https://img.shields.io/pypi/v/rubricon?style=flat-square&color=8b5cf6&label=) | `4,321` |
+| [**auto-any**](https://pypi.org/project/auto-any/) | Browser and task automation that replays — every run is a signed receipt | ![v](https://img.shields.io/pypi/v/auto-any?style=flat-square&color=8b5cf6&label=) | `3,695` |
+| [**distill-json**](https://pypi.org/project/distill-json/) · [src](https://github.com/karthyick/DISTILL) | Lossless JSON compression for LLM payloads — 60-85% token reduction, 6.6× ratio | ![v](https://img.shields.io/pypi/v/distill-json?style=flat-square&color=8b5cf6&label=) | `3,253` |
+| [**semantic-llm-cache**](https://pypi.org/project/semantic-llm-cache/) · [src](https://github.com/karthyick/prompt-cache) | Cache by *meaning*, not by string — one decorator, 20-40% of calls never leave | ![v](https://img.shields.io/pypi/v/semantic-llm-cache?style=flat-square&color=8b5cf6&label=) | `2,927` |
+| [**clinotes**](https://pypi.org/project/clinotes/) · [src](https://github.com/karthyick/clinotes) | Git-native project memory for coding agents — decisions as Markdown, MCP-ready | ![v](https://img.shields.io/pypi/v/clinotes?style=flat-square&color=8b5cf6&label=) | `2,009` |
+| [**langgraph-crosschain**](https://pypi.org/project/langgraph-crosschain/) · [src](https://github.com/karthyick/langgraph-crosschain) | Direct node-to-node communication across separate LangGraph chains | ![v](https://img.shields.io/pypi/v/langgraph-crosschain?style=flat-square&color=8b5cf6&label=) | `1,277` |
+| [**context-rainbow**](https://pypi.org/project/context-rainbow/) · [src](https://github.com/karthyick/context-rainbow) | Color-aware context routing — progressive knowledge loading, not bulk stuffing | ![v](https://img.shields.io/pypi/v/context-rainbow?style=flat-square&color=8b5cf6&label=) | `723` |
 
 <sub>Eight releases between Nov 2025 and Aug 2026. Version badges are live; download totals are cumulative, refreshed from pypistats.</sub>
 
 </details>
 
 <details>
-<summary><b>🧩 VS Code Marketplace — 8 extensions · 5,324 installs</b></summary>
+<summary><b>🧩 VS Code Marketplace — 8 extensions · 5,498 installs</b></summary>
 <br/>
 
 | Extension | What it does | Installs |
 |---|---|---|
-| [**Python Venv Activator**](https://marketplace.visualstudio.com/items?itemName=krextensions.venv-activator) | Activates the right venv the moment you open the folder | `2,737` |
-| [**Code to Flowchart**](https://marketplace.visualstudio.com/items?itemName=krextensions.code-to-flowchart) | Turns the function under your cursor into an interactive flowchart | `2,381` |
-| [Code2Summarize](https://marketplace.visualstudio.com/items?itemName=krextensions.code2summarize) · [Code2PR](https://marketplace.visualstudio.com/items?itemName=krextensions.code2pr) · [Code2Assist](https://marketplace.visualstudio.com/items?itemName=krextensions.code2assist) · [Folder Structure Creator](https://marketplace.visualstudio.com/items?itemName=krextensions.folder-structure-creator) · [Shared Venv Activator](https://marketplace.visualstudio.com/items?itemName=krextensions.shared-venv-activator) · [Package to Flowchart](https://marketplace.visualstudio.com/items?itemName=krextensions.package-to-flowchart) | Six smaller editor tools | `206` |
+| [**Python Venv Activator**](https://marketplace.visualstudio.com/items?itemName=krextensions.venv-activator) | Activates the right venv the moment you open the folder | `2,792` |
+| [**Code to Flowchart**](https://marketplace.visualstudio.com/items?itemName=krextensions.code-to-flowchart) | Turns the function under your cursor into an interactive flowchart | `2,486` |
+| [Code2Summarize](https://marketplace.visualstudio.com/items?itemName=krextensions.code2summarize) · [Code2PR](https://marketplace.visualstudio.com/items?itemName=krextensions.code2pr) · [Code2Assist](https://marketplace.visualstudio.com/items?itemName=krextensions.code2assist) · [Folder Structure Creator](https://marketplace.visualstudio.com/items?itemName=krextensions.folder-structure-creator) · [Shared Venv Activator](https://marketplace.visualstudio.com/items?itemName=krextensions.shared-venv-activator) · [Package to Flowchart](https://marketplace.visualstudio.com/items?itemName=krextensions.package-to-flowchart) | Six smaller editor tools | `220` |
 
 </details>
 
