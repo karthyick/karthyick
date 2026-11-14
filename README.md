@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3200&pause=900&color=8B5CF6&center=true&vCenter=true&width=620&lines=Lead+AI%2FML+Engineer+%40+Appian;Applied+LLM+research+%C2%B7+built+for+production;EFA+paper+%C2%B7+96.2%25+on+MT-Bench;24.5M+LLM+trained+from+scratch;8+PyPI+packages+%C2%B7+22%2C766+downloads;8+VS+Code+extensions+%C2%B7+5%2C498+installs" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3200&pause=900&color=8B5CF6&center=true&vCenter=true&width=620&lines=Lead+AI%2FML+Engineer+%40+Appian;Applied+LLM+research+%C2%B7+built+for+production;EFA+paper+%C2%B7+96.2%25+on+MT-Bench;24.5M+LLM+trained+from+scratch;8+PyPI+packages+%C2%B7+22%2C951+downloads;8+VS+Code+extensions+%C2%B7+5%2C518+installs" alt="Typing SVG"/>
   </a>
 </p>
 
